@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-#define SIZE 6
+#define SIZE 12
 typedef struct{
 char buffer[SIZE];
 int head;
@@ -41,7 +41,7 @@ return data;
 int main(){
 CircularBuffer cb;
 init(&cb);
-char name[100]="hadeel";
+char name[100]="safa";
 char toAppend[]="CE-ESY";
 strcat(name,toAppend);
 printf("\nالنص المراد تخزينه: %s\n",name);
